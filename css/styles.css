@@ -481,7 +481,14 @@ body {
   color: var(--text-muted);
 }
 
+.contact-separator {
+  margin: 12px 0;
+  line-height: 1;
+  color: var(--text-muted);
+}
+
 .contact-link {
+  display: inline-block;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
