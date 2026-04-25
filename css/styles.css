@@ -83,6 +83,15 @@ body {
   color: var(--accent);
 }
 
+@media (max-width: 720px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 16px;
+    max-width: min(100%, 420px);
+  }
+}
+
 /* Hero */
 .hero {
   max-width: 780px;
